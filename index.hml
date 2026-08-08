@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathias &amp; Ellen - Bryllupsspillelister</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Georgia", "Times New Roman", serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 2rem 0;
+            background: linear-gradient(135deg, #fdf6e3, #fceef0, #f0e6f6);
+            color: #3a3a3a;
+        }
+        .player {
+            text-align: center;
+            padding: 3rem 2.5rem;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(180, 140, 160, 0.25);
+            max-width: 420px;
+            width: 90%;
+        }
+        .ornament {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            opacity: 0.7;
+        }
+        h1 {
+            font-size: 1.6rem;
+            font-style: italic;
+            font-weight: normal;
+            margin-bottom: 0.3rem;
+            color: #6b4c5a;
+        }
+        .date {
+            font-size: 0.85rem;
+            color: #b08a9a;
+            margin-bottom: 1.5rem;
+        }
+        .divider {
+            width: 60px;
+            height: 1px;
+            background: #d4b0c0;
+            margin: 1rem auto 1.8rem;
+        }
+        .playlists {
+            display: flex;
+            flex-direction: column;
+            gap: 1.4rem;
+        }
+        .playlist-label {
+            font-size: 0.95rem;
+            color: #7a5c6a;
+            margin-bottom: 0.5rem;
+        }
+        .playlist-label span {
+            display: block;
+            font-size: 0.8rem;
+            color: #b08a9a;
+            font-style: italic;
+        }
+        .spotify-link {
+            display: block;
+            padding: 0.7rem 1.2rem;
+            background: #1db954;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 24px;
+            font-size: 0.95rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            transition: background 0.2s;
+        }
+        .spotify-link:hover {
+            background: #1aa34a;
+        }
+    </style>
+</head>
+<body>
+    <div class="player">
+        <div class="ornament">&hearts;</div>
+        <h1>Mathias &amp; Ellen</h1>
+        <p class="date">8. august 2026</p>
+        <div class="divider"></div>
+        <div class="playlists">
+            <div>
+                <p class="playlist-label">Introsang</p>
+                <a class="spotify-link" href="https://open.spotify.com/playlist/3wWGRUB4tHZxwD0HdfTIAS" target="_blank" rel="noopener">&#9835; &Aring;pne p&aring; Spotify</a>
+            </div>
+            <div>
+                <p class="playlist-label">Velkomstliste<span>15:45 &ndash; 17:00</span></p>
+                <a class="spotify-link" href="https://open.spotify.com/playlist/25YO8JkubksCTIhFmNfe52" target="_blank" rel="noopener">&#9835; &Aring;pne p&aring; Spotify</a>
+            </div>
+            <div>
+                <p class="playlist-label">Utover natten<span>fra 00:00</span></p>
+                <a class="spotify-link" href="https://open.spotify.com/playlist/5tJaOiKoSheKscstx3aHgW" target="_blank" rel="noopener">&#9835; &Aring;pne p&aring; Spotify</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
